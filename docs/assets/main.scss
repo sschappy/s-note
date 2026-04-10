@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "minima";
+
 /* Global image sizing for markdown content on Jekyll Pages. */
 .page-content img,
 .post-content img,
@@ -20,4 +22,14 @@ main img {
   main img {
     max-width: 100%;
   }
+}
+
+/* Improve header nav readability. */
+.site-nav .page-link {
+  margin-left: 1rem;
+}
+
+/* Minimal footer for docs site. */
+.site-footer {
+  display: none;
 }

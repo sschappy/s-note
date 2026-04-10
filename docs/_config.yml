@@ -11,3 +11,11 @@ kramdown:
   input: GFM
 
 permalink: pretty
+
+header_pages:
+  - index.md
+  - howto/index.md
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
