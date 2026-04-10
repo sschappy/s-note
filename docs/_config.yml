@@ -3,20 +3,11 @@ description: 基于 Markdown 的轻量文档仓库，使用 GitHub Pages 托管
 theme: minima
 lang: zh-CN
 
-# GitHub Pages 项目站点配置
 url: "https://sschappy.github.io"
 baseurl: "/s-note"
 
-# Markdown 渲染
 markdown: kramdown
 kramdown:
   input: GFM
 
-# 可选：永久链接风格（对纯文档仓库友好）
 permalink: pretty
-
-# 可选：不发布这些内容
-exclude:
-  - README.md
-  - LICENSE
-  - .github/

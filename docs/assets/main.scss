@@ -1,11 +1,10 @@
 ---
 ---
 
-@import "minima";
-
 /* Global image sizing for markdown content on Jekyll Pages. */
 .page-content img,
 .post-content img,
+.markdown-body img,
 main img {
   display: block;
   max-width: 560px;
@@ -17,6 +16,7 @@ main img {
 @media (max-width: 640px) {
   .page-content img,
   .post-content img,
+  .markdown-body img,
   main img {
     max-width: 100%;
   }
